@@ -1,0 +1,56 @@
+body {
+  background-color: #5487a1;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  margin-top: 0.5em;
+}
+
+h1 span {
+  color: gold;
+}
+
+h2 {
+  color: white;
+  font-size: 2em;
+}
+
+.updateBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.updateBar div {
+  padding: 1em;
+}
+
+.updateBar div label {
+  font-size: 3em;
+  color: white;
+}
+
+.updateBar div .range {
+  height: 0.5em;
+}
+
+.updateBar div .color {
+  width: 10vw;
+  margin-left: 1em;
+  border-radius: 50vw;
+}
+
+img {
+  width: 70vw;
+  background-color: #ffc600;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  padding: 3em;
+}
+/*# sourceMappingURL=style.css.map */

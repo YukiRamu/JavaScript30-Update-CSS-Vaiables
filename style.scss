@@ -1,0 +1,45 @@
+$blur: 10px;
+$color: #d3d62b;
+$spacing: 10px;
+
+body {
+  background-color: #5487a1;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 4em;
+  margin-top: 0.5em;
+  span {
+    color: gold;
+  }
+}
+h2 {
+  color: white;
+  font-size: 2em;
+}
+.updateBar {
+  display: flex;
+  justify-content: center;
+  div {
+    padding: 1em;
+    label {
+      font-size: 3em;
+      color: white;
+    }
+    .range {
+      height: 0.5em;
+    }
+    .color {
+      width: 10vw;
+      margin-left: 1em;
+      border-radius: 50vw;
+    }
+  }
+}
+img {
+  width: 70vw;
+  background-color: #ffc600; //base color
+  filter: blur(10px); //blur
+  padding: 3em; //spacing
+}
